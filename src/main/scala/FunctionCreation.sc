@@ -13,3 +13,10 @@ sum(3,6)
 multiply(7,5)
 
 
+def getStringValue(num: Int):String = {
+  val square = num * num
+  square.toString
+}
+println(getStringValue(20))
+
+
