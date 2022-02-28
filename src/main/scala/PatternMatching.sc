@@ -1,3 +1,5 @@
+import scala.util.Random
+
 var num = 294
 var digit = 30
 var amount = 98
@@ -28,6 +30,20 @@ var result: String  = amount match{
   case x if amount>50 => "amount is :"+x
   case _ => "Nothing match in amount"
 }
+
+
+val value:Int = Random.nextInt(6)
+
+value match{
+  case 0=> "Zero"
+  case 1=> "One"
+  case 2=> "Two"
+  case 3=> "Three"
+  case _=> "Other"
+
+}
+
+
 
 
 
